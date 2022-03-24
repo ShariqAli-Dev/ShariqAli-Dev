@@ -1,11 +1,11 @@
-<p align="Center" ><img src="https://camo.githubusercontent.com/3b7c592ede97b6138ffd4b1cc1541c2f3b11fd39/687474703a2f2f33312e6d656469612e74756d626c722e636f6d2f31376665613932306666333665663466356238373764353231366137616164392f74756d626c725f6d6f39786a65387a5a34317163626975666f315f313238302e676966" height="350px" width ="350px"></p>
+<p align="Center" ><img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" /></p>
 
 ### Hey, I'm Shariq 👋 👋 👋
 
 - 🔭 I’m currently working on 👉 A case management CRM for a non-profit
-- 🤔 I’m looking for help with 👉 Getting a full time job as a developer lol
-- 🌱 I’m currently learning 👉 To wrap my head around recursive algorithms for graphs
-- ⚡ Fun fact: 👉 I'm an avid woodworker in my spare time
+- 🤔 I’m looking for help with 👉 Landing my first job!
+- 🌱 I’m currently learning 👉 A neat new library Svelte!
+- ⚡ Fun fact: 👉 I love mountain biking and skateboarding
 
 <h3> 🛠 &nbsp;Tech Stack (constantly evolving)</h3>
 
