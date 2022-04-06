@@ -1,8 +1,6 @@
 <p align="Center" ><img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="350" height="350" /></p>
 
 ### Hey, I'm Shariq 👋 👋 👋
-
-- 🔭 I’m currently working on 👉 A case management CRM for a non-profit
 - 🤔 I’m looking for help with 👉 Landing my first job!
 - 🌱 I’m currently learning 👉 A neat new library Svelte!
 - ⚡ Fun fact: 👉 I love mountain biking and skateboarding
