@@ -1,6 +1,7 @@
 {
-  "name": "portfolio-2",
+  "name": "shariq-portfolio",
   "version": "0.1.0",
+  "description": "Shariq's Website",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,6 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.2.4",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "framer-motion": "^6",
     "next": "12.2.3",
     "react": "18.2.0",
     "react-dom": "18.2.0"
