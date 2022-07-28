@@ -1,6 +1,7 @@
 import { Box, Container } from '@chakra-ui/react';
 import Head from 'next/head';
 import { ReactNode } from 'react';
+import Navbar from '../Navbar';
 
 type Props = {
   router: any;
@@ -23,7 +24,7 @@ const Main = ({ router, children }: Props) => {
         <title>Shariq Ali - Homepage</title>
       </Head>
 
-      {/* <Navbar/> */}
+      <Navbar path={router.asPath} />
 
       <Container maxW='container.md'>
         {/* <LazyVoxel___/> */}
