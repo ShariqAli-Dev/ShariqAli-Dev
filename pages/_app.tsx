@@ -1,12 +1,32 @@
+import Layout from '../components/layouts';
+import Fonts from '../components/Fonts';
+import Chakra from '../components/Chakra';
 import type { AppProps } from 'next/app';
-import { ChakraProvider } from '@chakra-ui/react';
+import { AnimatePresence } from 'framer-motion';
 
-function MyApp({ Component, pageProps }: AppProps) {
+if (typeof window !== 'undefined') {
+  window.history.scrollRestoration = 'manual';
+}
+
+function Website({ Component, pageProps, router }: AppProps) {
   return (
-    <ChakraProvider>
-      <Component {...pageProps} />
-    </ChakraProvider>
+    <Chakra cookies={pageProps.cookies}>
+      <Fonts />
+      <Layout router={router}>
+        <AnimatePresence
+          exitBeforeEnter
+          initial={true}
+          onExitComplete={() => {
+            if (typeof window !== 'undefined') {
+              window.scrollTo({ top: 0 });
+            }
+          }}
+        >
+          <Component {...pageProps} key={router.route} />
+        </AnimatePresence>
+      </Layout>
+    </Chakra>
   );
 }
 
-export default MyApp;
+export default Website;
