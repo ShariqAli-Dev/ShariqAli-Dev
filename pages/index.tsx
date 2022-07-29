@@ -48,7 +48,7 @@ const Home: NextPage = () => {
             <Heading as='h2' variant='page-title'>
               Shariq Ali
             </Heading>
-            <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+            <p>Digital Craftsman (Artist / Developer / Designer)</p>
           </Box>
           <Box
             flexShrink={0}
