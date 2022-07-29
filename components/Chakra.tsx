@@ -5,7 +5,7 @@ import {
 } from '@chakra-ui/react';
 import { GetServerSideProps } from 'next';
 import { ReactNode } from 'react';
-import theme from './Theme';
+import theme from '../lib/Theme';
 
 type Props = {
   cookies: string;
