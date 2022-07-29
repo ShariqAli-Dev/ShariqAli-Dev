@@ -18,10 +18,8 @@ import Paragraph from '../components/Paragraph';
 import { BioSection, BioYear } from '../components/Bio';
 import Layout from '../components/layouts/Article';
 import Section from '../components/Section';
-import { GridItem } from '../components/GridItem';
 import { IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5';
-import thumbYouTube from '../public/images/links/youtube.png';
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png';
+
 import Image from 'next/image';
 
 const ProfileImage = chakra(Image, {
@@ -31,7 +29,7 @@ const ProfileImage = chakra(Image, {
 const Home: NextPage = () => {
   return (
     <Layout>
-      <Container maxW='lg'>
+      <Container maxW='xl'>
         <Box
           borderRadius='lg'
           mb={6}
