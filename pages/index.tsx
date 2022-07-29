@@ -29,7 +29,7 @@ const ProfileImage = chakra(Image, {
 const Home: NextPage = () => {
   return (
     <Layout>
-      <Container maxW='xl'>
+      <Container maxW='2xl'>
         <Box
           borderRadius='lg'
           mb={6}
