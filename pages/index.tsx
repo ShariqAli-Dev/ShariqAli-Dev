@@ -31,7 +31,7 @@ const ProfileImage = chakra(Image, {
 const Home: NextPage = () => {
   return (
     <Layout>
-      <Container maxW='xl'>
+      <Container maxW='lg'>
         <Box
           borderRadius='lg'
           mb={6}
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           css={{ backdropFilter: 'blur(10px)' }}
         >
-          Hello, I&apos;m an indie app developer based in Japan!
+          Hello, I&apos;m a full-stack web developer based in New York!
         </Box>
 
         <Box display={{ md: 'flex' }}>
