@@ -1,6 +1,7 @@
 import { Box, Container } from '@chakra-ui/react';
 import Head from 'next/head';
 import { ReactNode } from 'react';
+import Footer from '../Footer';
 import Navbar from '../Navbar';
 
 type Props = {
@@ -28,9 +29,10 @@ const Main = ({ router, children }: Props) => {
 
       <Container maxW='container.md'>
         {/* <LazyVoxel___/> */}
+
         {children}
 
-        {/* <Footer/> */}
+        <Footer />
       </Container>
     </Box>
   );
