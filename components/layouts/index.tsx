@@ -29,7 +29,7 @@ const Main = ({ router, children }: Props) => {
         <meta name='og:title' content='Shariq Ali' />
         <meta property='og:type' content='website' />
         {/* <meta property='og:image' content='https://www.___.png' /> */}
-        <title>Shariq Ali - Homepage</title>
+        <title>Homepage - Shariq Ali </title>
       </Head>
 
       <Navbar path={router.asPath} />
