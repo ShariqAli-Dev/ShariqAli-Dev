@@ -87,7 +87,7 @@ const Home: NextPage = () => {
             reading, biking, and spending quality time with his loved ones.{' '}
           </Paragraph>
           <Box display='flex' justifyContent='center' my={4}>
-            <NextLink href='/works' passHref scroll={false}>
+            <NextLink href='/projects' passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme='teal'>
                 My portfolio
               </Button>

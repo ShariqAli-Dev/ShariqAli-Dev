@@ -11,7 +11,7 @@ type GridItem = {
   thumbnail: StaticImageData;
 };
 
-type WorkGridItem = {
+type ProjectGridItem = {
   children?: ReactNode;
   id: string;
   title: string;
@@ -36,14 +36,14 @@ export const GridItem = ({ children, href, title, thumbnail }: GridItem) => (
   </Box>
 );
 
-export const WorkGridItem = ({
+export const ProjectGridItem = ({
   children,
   id,
   title,
   thumbnail,
-}: WorkGridItem) => (
+}: ProjectGridItem) => (
   <Box w='100%' textAlign='center'>
-    <NextLink href={`/works/${id}`} passHref scroll={false}>
+    <NextLink href={`/projects/${id}`} passHref scroll={false}>
       <LinkBox cursor='pointer'>
         <Image
           src={thumbnail}
@@ -51,7 +51,7 @@ export const WorkGridItem = ({
           className='grid-item-thumbnail'
           placeholder='blur'
         />
-        <LinkOverlay href={`/works/${id}`}>
+        <LinkOverlay href={`/projects/${id}`}>
           <Text mt={2} fontSize={20}>
             {title}
           </Text>

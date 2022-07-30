@@ -4,7 +4,7 @@ import { ReactNode } from 'react';
 
 type Props = {
   children?: ReactNode;
-  delay: number | any;
+  delay?: number | any;
 };
 
 const StyledDiv = chakra(motion.div, {
