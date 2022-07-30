@@ -51,7 +51,7 @@ const VoxelDog = () => {
       container.appendChild(renderer.domElement);
       setRenderer(renderer);
 
-      const scale = scH * 0.025 + 4.8;
+      const scale = scH * 0.0125 + 4.8;
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
