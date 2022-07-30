@@ -15,8 +15,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
-// import ThemeToggleButton from './theme-toggle-button';
-import { IoLogoGithub } from 'react-icons/io5';
+import { IoNewspaper } from 'react-icons/io5';
 import { ReactNode } from 'react';
 import Logo from './Logo';
 import ThemeToggleButton from './ThemeToggleButton';
@@ -93,15 +92,15 @@ const Navbar = (props: NavProps) => {
 
           <LinkItem
             target='_blank'
-            href='https://github.com/ShariqAli-Dev/portfolio'
+            href='https://docs.google.com/document/d/1CORhtoMJeEtCQg2GKo_AlwkZdQ1zMnb4QZPMk-lgcp8/edit'
             path={path}
             display='inline-flex'
             alignItems='center'
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoGithub />
-            Source
+            <IoNewspaper />
+            Resume
           </LinkItem>
         </Stack>
 
@@ -125,9 +124,10 @@ const Navbar = (props: NavProps) => {
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  href='https://github.com/ShariqAli-Dev/portfolio'
+                  target='_blank'
+                  href='https://docs.google.com/document/d/1CORhtoMJeEtCQg2GKo_AlwkZdQ1zMnb4QZPMk-lgcp8/edit'
                 >
-                  View Source
+                  View Resume
                 </MenuItem>
               </MenuList>
             </Menu>
