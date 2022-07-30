@@ -18,7 +18,7 @@ const Projects = () => {
             <ProjectGridItem
               id='loop-media'
               title='Loop Media'
-              thumbnail={thumbLoop}
+              thumbnail={thumbWOP}
             >
               The place to write, read and discuss current events without
               language barriers or filter bubbles
