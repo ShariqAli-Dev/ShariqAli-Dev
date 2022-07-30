@@ -28,7 +28,10 @@ const Main = ({ router, children }: Props) => {
         <meta property='og:site_name' content='Shariq Ali' />
         <meta name='og:title' content='Shariq Ali' />
         <meta property='og:type' content='website' />
-        {/* <meta property='og:image' content='https://www.___.png' /> */}
+        <meta
+          property='og:image'
+          content='https://portfolio-shariqali-dev.vercel.app/card.png'
+        />
         <title>Homepage - Shariq Ali </title>
       </Head>
 
