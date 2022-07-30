@@ -24,7 +24,10 @@ const NotFound = () => {
           or language barriers.
         </P>
         <P>
-          <Link href='https://www.linkedin.com/in/santiago-cabanas-oyarzun-9564311a4/'>
+          <Link
+            href='https://www.linkedin.com/in/santiago-cabanas-oyarzun-9564311a4/'
+            target='_blank'
+          >
             Santaigo Cabanas Oyarzun <ExternalLinkIcon mx='2px' />
           </Link>
           , the founder of the company, is a good friend of mine. I was
@@ -35,7 +38,7 @@ const NotFound = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href='https://www.loopmedia.app'>
+            <Link href='https://www.loopmedia.app' target='blank'>
               https://www.loopmedia.app <ExternalLinkIcon mx='2px' />
             </Link>
           </ListItem>
