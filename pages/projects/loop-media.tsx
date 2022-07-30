@@ -69,3 +69,4 @@ const NotFound = () => {
 };
 
 export default NotFound;
+export { getServerSideProps } from '../../components/Chakra';
