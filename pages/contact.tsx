@@ -170,6 +170,3 @@ const Contact = () => {
 };
 
 export default Contact;
-function value(arg0: any, value: any) {
-  throw new Error('Function not implemented.');
-}
