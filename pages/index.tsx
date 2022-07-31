@@ -65,7 +65,7 @@ const Home: NextPage = () => {
               overflow='hidden'
             >
               <ProfileImage
-                src='/images/hamm.jpg'
+                src='/images/code-dog.jpg'
                 alt='Profile image'
                 borderRadius='full'
                 width='100%'
