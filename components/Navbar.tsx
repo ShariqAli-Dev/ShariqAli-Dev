@@ -15,7 +15,7 @@ import {
   useColorModeValue,
 } from '@chakra-ui/react';
 import { HamburgerIcon } from '@chakra-ui/icons';
-import { IoNewspaper } from 'react-icons/io5';
+import { IoNewspaperOutline, IoMailOutline } from 'react-icons/io5';
 import { ReactNode } from 'react';
 import Logo from './Logo';
 import ThemeToggleButton from './ThemeToggleButton';
@@ -90,6 +90,10 @@ const Navbar = (props: NavProps) => {
             Projects
           </LinkItem>
 
+          <LinkItem href='/contact' path={path}>
+            Contact
+          </LinkItem>
+
           <LinkItem
             target='_blank'
             href='https://docs.google.com/document/d/1CORhtoMJeEtCQg2GKo_AlwkZdQ1zMnb4QZPMk-lgcp8/edit'
@@ -99,7 +103,7 @@ const Navbar = (props: NavProps) => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoNewspaper />
+            <IoNewspaperOutline />
             Resume
           </LinkItem>
         </Stack>
@@ -121,6 +125,9 @@ const Navbar = (props: NavProps) => {
                 </NextLink>
                 <NextLink href='/projects' passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
+                </NextLink>
+                <NextLink href='/contact' passHref>
+                  <MenuItem as={Link}>Contact</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}

@@ -5,6 +5,9 @@ import { ReactNode } from 'react';
 type Props = {
   children?: ReactNode;
   delay?: number | any;
+  width?: any;
+  height?: any;
+  display?: any;
 };
 
 const StyledDiv = chakra(motion.div, {
@@ -13,15 +16,19 @@ const StyledDiv = chakra(motion.div, {
   },
 });
 
-const Section = ({ children, delay = 0 }: Props) => (
-  <StyledDiv
-    initial={{ y: 10, opacity: 0 }}
-    animate={{ y: 0, opacity: 1 }}
-    transition={{ duration: '0.8', delay }}
-    mb={6}
-  >
-    {children}
-  </StyledDiv>
-);
+const Section = (props: Props) => {
+  const { children, width, delay = 0 } = props;
+  return (
+    <StyledDiv
+      initial={{ y: 10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: '0.8', delay }}
+      mb={6}
+      {...props}
+    >
+      {children}
+    </StyledDiv>
+  );
+};
 
 export default Section;
