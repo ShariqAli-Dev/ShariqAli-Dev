@@ -57,14 +57,14 @@ const NotFound = () => {
                 target='_blank'
                 href='https://github.com/BloomTech-Labs/family-promise-case-mgmt-fe'
               >
-                Front-End
+                Front-End <ExternalLinkIcon mx='2px' />
               </Link>{' '}
               |{' '}
               <Link
                 target='_blank'
                 href='https://github.com/BloomTech-Labs/family-promise-case-mgmt-be'
               >
-                Back-End
+                Back-End <ExternalLinkIcon mx='2px' />
               </Link>
             </span>
           </ListItem>
