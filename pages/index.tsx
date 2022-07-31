@@ -158,6 +158,13 @@ const Home: NextPage = () => {
               </Link>
             </ListItem>
           </List>
+          <Box display='flex' justifyContent='center' my={4}>
+            <NextLink href='/contact' passHref scroll={false}>
+              <Button rightIcon={<ChevronRightIcon />} colorScheme='teal'>
+                Contact Me
+              </Button>
+            </NextLink>
+          </Box>
         </Section>
       </Container>
     </Layout>
