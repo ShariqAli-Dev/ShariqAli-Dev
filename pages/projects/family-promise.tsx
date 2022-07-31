@@ -38,7 +38,7 @@ const NotFound = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link target='_blank' href='#'>
+            <Link target='_blank'>
               [Work in progress] <ExternalLinkIcon mx='2px' />
             </Link>
           </ListItem>
