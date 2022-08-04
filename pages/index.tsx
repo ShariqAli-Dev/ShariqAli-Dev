@@ -89,7 +89,7 @@ const Home: NextPage = () => {
           <Box display='flex' justifyContent='center' my={4}>
             <NextLink href='/projects' passHref scroll={false}>
               <Button rightIcon={<ChevronRightIcon />} colorScheme='teal'>
-                My portfolio
+                My Projects
               </Button>
             </NextLink>
           </Box>
