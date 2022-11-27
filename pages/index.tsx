@@ -122,9 +122,7 @@ const Home: NextPage = () => {
           <Heading as="h3" variant="section-title">
             I ♥
           </Heading>
-          <Paragraph>
-            Art, Music, Mountain Biking, Photography, Machine Learning
-          </Paragraph>
+          <Paragraph>Music, History, Calisthenics, Reading</Paragraph>
         </Section>
 
         <Section delay={0.3}>
