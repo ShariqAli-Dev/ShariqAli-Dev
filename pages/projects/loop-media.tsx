@@ -52,7 +52,7 @@ const NotFound = () => {
           </ListItem>
         </List>
         <ProjectImage
-          src="/images/projects/loop-media/banner.jpg"
+          src="/images/projects/loop-media/banner.png"
           alt="Loop Media"
         />
         <AspectRatio>
