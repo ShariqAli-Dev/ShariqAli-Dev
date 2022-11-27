@@ -5,15 +5,15 @@ import {
   ListItem,
   Link,
   AspectRatio,
-} from '@chakra-ui/react';
-import Layout from '../../components/layouts/Article';
-import { Meta, ProjectImage, Title } from '../../components/Project';
-import P from '../../components/Paragraph';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
+} from "@chakra-ui/react";
+import Layout from "../../components/layouts/Article";
+import { Meta, ProjectImage, Title } from "../../components/Project";
+import P from "../../components/Paragraph";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const NotFound = () => {
   return (
-    <Layout title='Loop Media'>
+    <Layout title="Loop Media">
       <Container>
         <Title>
           Loop Media <Badge>2021</Badge>
@@ -25,10 +25,10 @@ const NotFound = () => {
         </P>
         <P>
           <Link
-            href='https://www.linkedin.com/in/santiago-cabanas-oyarzun-9564311a4/'
-            target='_blank'
+            href="https://www.linkedin.com/in/santiago-cabanas-oyarzun-9564311a4/"
+            target="_blank"
           >
-            Santaigo Cabanas Oyarzun <ExternalLinkIcon mx='2px' />
+            Santaigo Cabanas Oyarzun <ExternalLinkIcon mx="2px" />
           </Link>
           , the founder of the company, is a good friend of mine. I was
           inspiried by his mission and helped code the website alongside a team
@@ -38,8 +38,8 @@ const NotFound = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href='https://www.loopmedia.app' target='blank'>
-              https://www.loopmedia.app <ExternalLinkIcon mx='2px' />
+            <Link href="https://www.loopmedia.app" target="blank">
+              https://www.loopmedia.app <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -52,17 +52,17 @@ const NotFound = () => {
           </ListItem>
         </List>
         <ProjectImage
-          src='/images/projects/loop-media/banner.jpg'
-          alt='Loop Media'
+          src="/images/projects/loop-media/banner.jpg"
+          alt="Loop Media"
         />
         <AspectRatio>
           <iframe
-            width='893'
-            height='502'
-            src='https://www.youtube.com/embed/baz-C2s7LMI'
-            title='Loop Media - news without algorithms | Santiago & Manolo | start up journey, inspiration, goals'
-            frameBorder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            width="893"
+            height="502"
+            src="https://www.youtube.com/embed/baz-C2s7LMI"
+            title="Loop Media - news without algorithms | Santiago & Manolo | start up journey, inspiration, goals"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         </AspectRatio>
@@ -72,4 +72,4 @@ const NotFound = () => {
 };
 
 export default NotFound;
-export { getServerSideProps } from '../../components/Chakra';
+export { getServerSideProps } from "../../components/Chakra";

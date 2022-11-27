@@ -1,8 +1,8 @@
-import { Box } from '@chakra-ui/react';
+import { Box } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <Box display='flex' justifyContent='center' opacity={0.4} fontSize='sm'>
+    <Box display="flex" justifyContent="center" opacity={0.4} fontSize="sm">
       &copy; {new Date().getFullYear()} Shariq Ali. All Rights Reserved.
     </Box>
   );

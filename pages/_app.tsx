@@ -1,11 +1,11 @@
-import Layout from '../components/layouts';
-import Fonts from '../components/Fonts';
-import Chakra from '../components/Chakra';
-import type { AppProps } from 'next/app';
-import { AnimatePresence } from 'framer-motion';
+import Layout from "../components/layouts";
+import Fonts from "../components/Fonts";
+import Chakra from "../components/Chakra";
+import type { AppProps } from "next/app";
+import { AnimatePresence } from "framer-motion";
 
-if (typeof window !== 'undefined') {
-  window.history.scrollRestoration = 'manual';
+if (typeof window !== "undefined") {
+  window.history.scrollRestoration = "manual";
 }
 
 function Website({ Component, pageProps, router }: AppProps) {
@@ -17,7 +17,7 @@ function Website({ Component, pageProps, router }: AppProps) {
           exitBeforeEnter
           initial={true}
           onExitComplete={() => {
-            if (typeof window !== 'undefined') {
+            if (typeof window !== "undefined") {
               window.scrollTo({ top: 0 });
             }
           }}

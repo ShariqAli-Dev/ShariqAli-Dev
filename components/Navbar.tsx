@@ -1,5 +1,5 @@
 // import Logo from './logo';
-import NextLink from 'next/link';
+import NextLink from "next/link";
 import {
   Container,
   Box,
@@ -13,12 +13,12 @@ import {
   MenuButton,
   IconButton,
   useColorModeValue,
-} from '@chakra-ui/react';
-import { HamburgerIcon } from '@chakra-ui/icons';
-import { IoNewspaperOutline, IoMailOutline } from 'react-icons/io5';
-import { ReactNode } from 'react';
-import Logo from './Logo';
-import ThemeToggleButton from './ThemeToggleButton';
+} from "@chakra-ui/react";
+import { HamburgerIcon } from "@chakra-ui/icons";
+import { IoNewspaperOutline, IoMailOutline } from "react-icons/io5";
+import { ReactNode } from "react";
+import Logo from "./Logo";
+import ThemeToggleButton from "./ThemeToggleButton";
 
 type NavProps = {
   path: string;
@@ -35,13 +35,13 @@ const LinkItem = ({
   ...props
 }: LinkProps | any) => {
   const active = path == href;
-  const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900');
+  const inactiveColor = useColorModeValue("gray200", "whiteAlpha.900");
   return (
     <NextLink href={href} passHref scroll={false}>
       <Link
         p={2}
-        bg={active ? 'grassTeal' : undefined}
-        color={active ? '#202023' : inactiveColor}
+        bg={active ? "grassTeal" : undefined}
+        color={active ? "#202023" : inactiveColor}
         target={target}
         {...props}
       >
@@ -56,50 +56,50 @@ const Navbar = (props: NavProps) => {
 
   return (
     <Box
-      position='fixed'
-      as='nav'
-      w='100%'
-      bg={useColorModeValue('#ffffff40', '#20202380')}
-      css={{ backdropFilter: 'blur(10px)' }}
+      position="fixed"
+      as="nav"
+      w="100%"
+      bg={useColorModeValue("#ffffff40", "#20202380")}
+      css={{ backdropFilter: "blur(10px)" }}
       zIndex={2}
       {...props}
     >
       <Container
-        display='flex'
+        display="flex"
         p={2}
-        maxW='container.md'
-        flexWrap='wrap'
-        alignItems='center'
-        justifyContent='space-between'
+        maxW="container.md"
+        flexWrap="wrap"
+        alignItems="center"
+        justifyContent="space-between"
       >
-        <Flex align='center' mr={5}>
-          <Heading as='h1' size='lg' letterSpacing={'tighter'}>
+        <Flex align="center" mr={5}>
+          <Heading as="h1" size="lg" letterSpacing={"tighter"}>
             <Logo />
           </Heading>
         </Flex>
 
         <Stack
-          direction={{ base: 'column', md: 'row' }}
-          display={{ base: 'none', md: 'flex' }}
-          width={{ base: 'full', md: 'auto' }}
-          alignItems='center'
+          direction={{ base: "column", md: "row" }}
+          display={{ base: "none", md: "flex" }}
+          width={{ base: "full", md: "auto" }}
+          alignItems="center"
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href='/projects' path={path}>
+          <LinkItem href="/projects" path={path}>
             Projects
           </LinkItem>
 
-          <LinkItem href='/contact' path={path}>
+          <LinkItem href="/contact" path={path}>
             Contact
           </LinkItem>
 
           <LinkItem
-            target='_blank'
-            href='https://drive.google.com/file/d/1sPplM-pG3DbcQG74Y89T1OdZTZwVWLH6/view?usp=sharing'
+            target="_blank"
+            href="https://drive.google.com/file/d/1sPplM-pG3DbcQG74Y89T1OdZTZwVWLH6/view?usp=sharing"
             path={path}
-            display='inline-flex'
-            alignItems='center'
+            display="inline-flex"
+            alignItems="center"
             style={{ gap: 4 }}
             pl={2}
           >
@@ -108,31 +108,31 @@ const Navbar = (props: NavProps) => {
           </LinkItem>
         </Stack>
 
-        <Box display='flex' alignSelf='right'>
+        <Box display="flex" alignSelf="right">
           <ThemeToggleButton />
 
-          <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
-            <Menu isLazy id='navbar-menu'>
+          <Box ml={2} display={{ base: "inline-block", md: "none" }}>
+            <Menu isLazy id="navbar-menu">
               <MenuButton
                 as={IconButton}
                 icon={<HamburgerIcon />}
-                variant='outline'
-                aria-label='Options'
+                variant="outline"
+                aria-label="Options"
               />
               <MenuList>
-                <NextLink href='/' passHref>
+                <NextLink href="/" passHref>
                   <MenuItem as={Link}>About</MenuItem>
                 </NextLink>
-                <NextLink href='/projects' passHref>
+                <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>Projects</MenuItem>
                 </NextLink>
-                <NextLink href='/contact' passHref>
+                <NextLink href="/contact" passHref>
                   <MenuItem as={Link}>Contact</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
-                  target='_blank'
-                  href='https://drive.google.com/file/d/1sPplM-pG3DbcQG74Y89T1OdZTZwVWLH6/view?usp=sharing'
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1sPplM-pG3DbcQG74Y89T1OdZTZwVWLH6/view?usp=sharing"
                 >
                   Resume
                 </MenuItem>

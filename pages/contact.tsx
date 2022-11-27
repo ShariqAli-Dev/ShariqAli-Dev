@@ -12,16 +12,16 @@ import {
   useColorModeValue,
   useToast,
   VStack,
-} from '@chakra-ui/react';
-import { ChangeEvent, SyntheticEvent, useRef, useState } from 'react';
-import Layout from '../components/layouts/Article';
-import Section from '../components/Section';
-import emailjs from '@emailjs/browser';
+} from "@chakra-ui/react";
+import { ChangeEvent, SyntheticEvent, useRef, useState } from "react";
+import Layout from "../components/layouts/Article";
+import Section from "../components/Section";
+import emailjs from "@emailjs/browser";
 
 const initialFormValues = {
-  name: '',
-  email: '',
-  message: '',
+  name: "",
+  email: "",
+  message: "",
 };
 
 const Contact = () => {
@@ -45,102 +45,102 @@ const Contact = () => {
       .then((res) => {
         setFormValues(initialFormValues);
         toast({
-          title: 'Email Sent',
-          description: 'Thank you for sending a message!',
-          status: 'success',
+          title: "Email Sent",
+          description: "Thank you for sending a message!",
+          status: "success",
           duration: 3000,
           isClosable: true,
-          position: 'top',
+          position: "top",
         });
       })
       .catch((err) => {
         toast({
-          title: 'Contact Error',
-          description: 'Could not send message',
-          status: 'error',
+          title: "Contact Error",
+          description: "Could not send message",
+          status: "error",
           duration: 3000,
           isClosable: true,
-          position: 'top',
+          position: "top",
         });
       });
   };
 
   return (
     <Layout>
-      <Container maxW='4xl'>
-        <Box display='flex' alignItems='center' mb={8}>
-          <Heading as='h2' variant='page-title'>
+      <Container maxW="4xl">
+        <Box display="flex" alignItems="center" mb={8}>
+          <Heading as="h2" variant="page-title">
             Contact Me!
           </Heading>
         </Box>
 
         <Section>
           <Box
-            borderRadius='lg'
+            borderRadius="lg"
             mb={6}
             p={3}
-            textAlign='center'
-            bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-            css={{ backdropFilter: 'blur(10px)' }}
+            textAlign="center"
+            bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
+            css={{ backdropFilter: "blur(10px)" }}
           >
             <Flex
-              display='flex'
-              justifyContent='space-around'
-              alignItems='center'
+              display="flex"
+              justifyContent="space-around"
+              alignItems="center"
             >
-              <Section width={{ base: '90%', md: '45%' }}>
+              <Section width={{ base: "90%", md: "45%" }}>
                 <form ref={form} onSubmit={onSubmit}>
-                  <VStack spacing='5%'>
+                  <VStack spacing="5%">
                     <FormControl>
                       <FormLabel>Full Name</FormLabel>
                       <Input
-                        name='name'
-                        id='name'
+                        name="name"
+                        id="name"
                         value={formValues.name}
                         onChange={onChange}
                         required
-                        borderBottom='1px'
-                        borderRadius='sm'
-                        borderColor={useColorModeValue('black', 'white')}
-                        variant='unstyled'
-                        type='text'
+                        borderBottom="1px"
+                        borderRadius="sm"
+                        borderColor={useColorModeValue("black", "white")}
+                        variant="unstyled"
+                        type="text"
                       />
                     </FormControl>
                     <FormControl>
                       <FormLabel>Email</FormLabel>
                       <Input
-                        name='email'
-                        id='email'
+                        name="email"
+                        id="email"
                         value={formValues.email}
                         onChange={onChange}
                         required
-                        borderBottom='1px'
-                        borderRadius='sm'
-                        borderColor={useColorModeValue('black', 'white')}
-                        variant='unstyled'
-                        type='email'
+                        borderBottom="1px"
+                        borderRadius="sm"
+                        borderColor={useColorModeValue("black", "white")}
+                        variant="unstyled"
+                        type="email"
                       />
                     </FormControl>
                     <FormControl>
                       <FormLabel>Message</FormLabel>
                       <Textarea
-                        name='message'
-                        id='message'
+                        name="message"
+                        id="message"
                         value={formValues.message}
                         onChange={onChange}
                         required
-                        borderBottom='1px'
-                        borderRadius='sm'
-                        borderColor={useColorModeValue('black', 'white')}
-                        variant='unstyled'
+                        borderBottom="1px"
+                        borderRadius="sm"
+                        borderColor={useColorModeValue("black", "white")}
+                        variant="unstyled"
                       />
                     </FormControl>
                     <Box>
                       <Button
-                        type='submit'
-                        value='Send'
-                        borderRadius='lg'
-                        colorScheme='teal'
+                        type="submit"
+                        value="Send"
+                        borderRadius="lg"
+                        colorScheme="teal"
                       >
                         Contact Me
                       </Button>
@@ -149,14 +149,14 @@ const Contact = () => {
                 </form>
               </Section>
 
-              <Section width='45%' display={{ base: 'none', md: 'block' }}>
-                <VStack spacing='40%' align='center'>
+              <Section width="45%" display={{ base: "none", md: "block" }}>
+                <VStack spacing="40%" align="center">
                   <Box>
-                    <Heading size='md'>Contact</Heading>
+                    <Heading size="md">Contact</Heading>
                     <Text>shariqali.dev@gmail.com</Text>
                   </Box>
                   <Box>
-                    <Heading size='md'>Based in</Heading>
+                    <Heading size="md">Based in</Heading>
                     <Text>New York, New York</Text>
                   </Box>
                 </VStack>

@@ -5,23 +5,23 @@ import {
   ListItem,
   Link,
   AspectRatio,
-} from '@chakra-ui/react';
-import Layout from '../../components/layouts/Article';
-import { Meta, ProjectImage, Title } from '../../components/Project';
-import P from '../../components/Paragraph';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
+} from "@chakra-ui/react";
+import Layout from "../../components/layouts/Article";
+import { Meta, ProjectImage, Title } from "../../components/Project";
+import P from "../../components/Paragraph";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const NotFound = () => {
   return (
-    <Layout title='Loop Media'>
+    <Layout title="Loop Media">
       <Container>
         <Title>
           Family Promise Case Management System <Badge>2022</Badge>
         </Title>
         <P>
-          <Link target='_blank' href='https://familypromise.org/'>
-            Family Promise <ExternalLinkIcon mx='2px' />
-          </Link>{' '}
+          <Link target="_blank" href="https://familypromise.org/">
+            Family Promise <ExternalLinkIcon mx="2px" />
+          </Link>{" "}
           helps local communities address the root causes of family
           homelessness. They provide prevention services for families in crisis,
           shelter & case management when they become homeless, and stabilization
@@ -38,8 +38,8 @@ const NotFound = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link target='_blank'>
-              [Work in progress] <ExternalLinkIcon mx='2px' />
+            <Link target="_blank">
+              [Work in progress] <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -54,17 +54,17 @@ const NotFound = () => {
             <Meta>Repositories</Meta>
             <span>
               <Link
-                target='_blank'
-                href='https://github.com/BloomTech-Labs/family-promise-case-mgmt-fe'
+                target="_blank"
+                href="https://github.com/BloomTech-Labs/family-promise-case-mgmt-fe"
               >
-                Front-End <ExternalLinkIcon mx='2px' />
-              </Link>{' '}
-              |{' '}
+                Front-End <ExternalLinkIcon mx="2px" />
+              </Link>{" "}
+              |{" "}
               <Link
-                target='_blank'
-                href='https://github.com/BloomTech-Labs/family-promise-case-mgmt-be'
+                target="_blank"
+                href="https://github.com/BloomTech-Labs/family-promise-case-mgmt-be"
               >
-                Back-End <ExternalLinkIcon mx='2px' />
+                Back-End <ExternalLinkIcon mx="2px" />
               </Link>
             </span>
           </ListItem>
@@ -72,12 +72,12 @@ const NotFound = () => {
 
         <AspectRatio>
           <iframe
-            width='893'
-            height='502'
-            src='https://www.youtube.com/embed/CgAv1i3vrow'
-            title='An Introduction to Family Promise'
-            frameBorder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            width="893"
+            height="502"
+            src="https://www.youtube.com/embed/CgAv1i3vrow"
+            title="An Introduction to Family Promise"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           />
         </AspectRatio>
@@ -87,4 +87,4 @@ const NotFound = () => {
 };
 
 export default NotFound;
-export { getServerSideProps } from '../../components/Chakra';
+export { getServerSideProps } from "../../components/Chakra";

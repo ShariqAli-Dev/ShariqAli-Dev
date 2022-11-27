@@ -1,8 +1,8 @@
-import NextLink from 'next/link';
-import Image, { StaticImageData } from 'next/image';
-import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react';
-import { Global } from '@emotion/react';
-import { ReactNode } from 'react';
+import NextLink from "next/link";
+import Image, { StaticImageData } from "next/image";
+import { Box, Text, LinkBox, LinkOverlay } from "@chakra-ui/react";
+import { Global } from "@emotion/react";
+import { ReactNode } from "react";
 
 type GridItem = {
   children?: ReactNode;
@@ -19,16 +19,16 @@ type ProjectGridItem = {
 };
 
 export const GridItem = ({ children, href, title, thumbnail }: GridItem) => (
-  <Box w='100%' textAlign='center'>
-    <LinkBox cursor='pointer'>
+  <Box w="100%" textAlign="center">
+    <LinkBox cursor="pointer">
       <Image
         src={thumbnail}
         alt={title}
-        className='grid-item-thumbnail'
-        placeholder='blur'
-        loading='lazy'
+        className="grid-item-thumbnail"
+        placeholder="blur"
+        loading="lazy"
       />
-      <LinkOverlay href={href} target='_blank'>
+      <LinkOverlay href={href} target="_blank">
         <Text mt={2}>{title}</Text>
       </LinkOverlay>
       <Text fontSize={14}>{children}</Text>
@@ -42,14 +42,14 @@ export const ProjectGridItem = ({
   title,
   thumbnail,
 }: ProjectGridItem) => (
-  <Box w='100%' textAlign='center'>
+  <Box w="100%" textAlign="center">
     <NextLink href={`/projects/${id}`} passHref scroll={false}>
-      <LinkBox cursor='pointer'>
+      <LinkBox cursor="pointer">
         <Image
           src={thumbnail}
           alt={title}
-          className='grid-item-thumbnail'
-          placeholder='blur'
+          className="grid-item-thumbnail"
+          placeholder="blur"
         />
         <LinkOverlay href={`/projects/${id}`}>
           <Text mt={2} fontSize={20}>

@@ -1,4 +1,4 @@
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 export function loadGLTFModel(
   scene: any,
@@ -13,7 +13,7 @@ export function loadGLTFModel(
       glbPath,
       (gltf) => {
         const obj: any = gltf.scene;
-        obj.name = 'dog';
+        obj.name = "dog";
         obj.position.y = 0;
         obj.position.x = 0;
         obj.receiveShadow = receiveShadow;

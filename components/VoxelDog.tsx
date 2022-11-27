@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
-import * as THREE from 'three';
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import { loadGLTFModel } from '../lib/Model';
-import { DogContainer, DogSpinner } from './VoxelDogLoader';
+import { useState, useEffect, useRef, useCallback } from "react";
+import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { loadGLTFModel } from "../lib/Model";
+import { DogContainer, DogSpinner } from "./VoxelDogLoader";
 
 const easeOutCirc = (x: number) => {
   return Math.sqrt(1 - Math.pow(x - 1, 4));
@@ -72,7 +72,7 @@ const VoxelDog = () => {
       controls.target = target;
       setControls(controls);
 
-      loadGLTFModel(scene, '/dog.glb', {
+      loadGLTFModel(scene, "/dog.glb", {
         receiveShadow: false,
         castShadow: false,
       }).then(() => {
@@ -105,7 +105,7 @@ const VoxelDog = () => {
       };
 
       return () => {
-        console.log('unmount');
+        console.log("unmount");
         cancelAnimationFrame(req);
         renderer.dispose();
       };
@@ -113,9 +113,9 @@ const VoxelDog = () => {
   }, []);
 
   useEffect(() => {
-    window.addEventListener('resize', handleWindowResize, false);
+    window.addEventListener("resize", handleWindowResize, false);
     return () => {
-      window.removeEventListener('resize', handleWindowResize, false);
+      window.removeEventListener("resize", handleWindowResize, false);
     };
   }, [renderer, handleWindowResize]);
 

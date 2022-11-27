@@ -1,7 +1,7 @@
-import { motion } from 'framer-motion';
-import Head from 'next/head';
-import { ReactNode } from 'react';
-import { GridItemStyle } from '../GridItem';
+import { motion } from "framer-motion";
+import Head from "next/head";
+import { ReactNode } from "react";
+import { GridItemStyle } from "../GridItem";
 
 type Props = {
   children?: ReactNode;
@@ -18,19 +18,19 @@ const Layout = ({ children, title }: Props) => {
   const t = `${title} - Shariq Ali`;
   return (
     <motion.article
-      initial='hidden'
-      animate='enter'
-      exit='exit'
+      initial="hidden"
+      animate="enter"
+      exit="exit"
       variants={variants}
-      transition={{ duration: 0.4, type: 'easeInOut' }}
-      style={{ position: 'relative' }}
+      transition={{ duration: 0.4, type: "easeInOut" }}
+      style={{ position: "relative" }}
     >
       <>
         {title && (
           <Head>
             <title>{t}</title>
-            <meta name='twitter:title' content={t} />
-            <meta property='og:title' content={t} />
+            <meta name="twitter:title" content={t} />
+            <meta property="og:title" content={t} />
           </Head>
         )}
         {children}

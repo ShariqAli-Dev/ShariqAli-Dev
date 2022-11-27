@@ -1,4 +1,4 @@
-import NextLink from 'next/link';
+import NextLink from "next/link";
 import {
   Box,
   Heading,
@@ -6,17 +6,17 @@ import {
   Container,
   Divider,
   Button,
-} from '@chakra-ui/react';
+} from "@chakra-ui/react";
 
 const NotFound = () => {
   return (
     <Container>
-      <Heading as='h1'>Not found</Heading>
+      <Heading as="h1">Not found</Heading>
       <Text>The page you&apos;re looking for was not found.</Text>
       <Divider my={6} />
-      <Box my={6} display='flex' justifyContent='center'>
-        <NextLink href='/' passHref>
-          <Button colorScheme='teal'>Return to home</Button>
+      <Box my={6} display="flex" justifyContent="center">
+        <NextLink href="/" passHref>
+          <Button colorScheme="teal">Return to home</Button>
         </NextLink>
       </Box>
     </Container>
