@@ -44,6 +44,18 @@ const NotFound = () => {
               MikroORM/TypeORM, Redis, Next.js, TypeGraphQL, Chakra
             </span>
           </ListItem>
+          <ListItem>
+            <Meta>Repositories</Meta>
+            <span>
+              <Link
+                target="_blank"
+
+                href="https://github.com/ShariqAli-Dev/bug-tracker"
+              >
+                Main <ExternalLinkIcon mx="2px" />
+              </Link>
+            </span>
+          </ListItem>
         </List>
         <ProjectImage
           src="/images/projects/bug-tracker/dashboard.png"
