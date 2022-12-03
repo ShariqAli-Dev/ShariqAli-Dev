@@ -67,16 +67,7 @@ const NotFound = () => {
         />
 
         <AspectRatio>
-          <div>Iframe for video</div>
-          {/* <iframe
-            width="893"
-            height="502"
-            src="https://www.youtube.com/embed/baz-C2s7LMI"
-            title="Loop Media - news without algorithms | Santiago & Manolo | start up journey, inspiration, goals"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          /> */}
+          <iframe width="956" height="538" src="https://www.youtube.com/embed/xR00iEVM_3w" title="Bug Tracker Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </AspectRatio>
       </Container>
     </Layout>
