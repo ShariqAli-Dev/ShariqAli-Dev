@@ -67,7 +67,7 @@ const NotFound = () => {
         />
 
         <AspectRatio>
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/2Svh41Qrmgw" title="Bug Tracker - Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe width="1280" height="720" src="https://www.youtube.com/embed/2Svh41Qrmgw" title="Bug Tracker - Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </AspectRatio>
       </Container>
     </Layout>
