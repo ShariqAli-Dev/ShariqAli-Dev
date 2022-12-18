@@ -48,7 +48,7 @@ const NotFound = () => {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Next, React, TailwindCSS, Firebase</span>
+            <span>Next, React, TailwindCSS, ContextAPI</span>
           </ListItem>
         </List>
         <ProjectImage

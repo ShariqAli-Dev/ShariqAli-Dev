@@ -132,7 +132,7 @@ const Navbar = (props: NavProps) => {
                 <MenuItem
                   as={Link}
                   target="_blank"
-                  href="https://drive.google.com/file/d/1sPplM-pG3DbcQG74Y89T1OdZTZwVWLH6/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1jpEbOHFIy6w8Fn6hx5v_ZKqyyrx1ykBj/view?usp=sharing"
                 >
                   Resume
                 </MenuItem>
