@@ -46,7 +46,7 @@ const Home: NextPage = () => {
             <Heading as="h2" variant="page-title">
               Shariq Ali
             </Heading>
-            <p>Digital Craftsman (Artist / Developer / Designer)</p>
+            <p>Software Engineer</p>
           </Box>
           <Box
             flexShrink={0}
@@ -81,10 +81,10 @@ const Home: NextPage = () => {
           </Heading>
           <Paragraph>
             Shariq is a full-stack developer based in New York with a passion
-            for building digital survices/stuff he wants. He has knack for all
-            things launching products, from planning and designing all the way
-            to solving real-life problems with code. When not online, he loves
-            reading, biking, and spending quality time with his loved ones.{" "}
+            for building digital things he wants. He has knack for all things
+            launching products, from planning and designing all the way to
+            solving real-life problems with code. When not online, he loves
+            pursuing his hobbies and spending quality time with his loved ones.
           </Paragraph>
           <Box display="flex" justifyContent="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
@@ -100,21 +100,17 @@ const Home: NextPage = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>2003</BioYear>
-            Born in Skeldon, Guyana
-          </BioSection>
-          <BioSection>
             <BioYear>2021</BioYear>
-            Interned at Loop Media!
+            - Interned at Loop Media!
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>
-            Completed the Full Stack Web Program from the Graduate School{" "}
-            <Link href="https://www.bloomtech.com/" target="_blank">
+            - Completed the Full Stack Web Program from the Graduate School{" "}
+            <Link href="https://www.credly.com/badges/000873bb-2322-4557-86da-892870fbb18c" target="_blank">
               Bloom Institute of Technology
             </Link>
             <br />
-            Interned at Family Promise Spokane!
+            - Interned at Family Promise Spokane!
           </BioSection>
         </Section>
 
