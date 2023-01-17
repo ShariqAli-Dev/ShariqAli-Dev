@@ -22,7 +22,7 @@ const Projects = () => {
               title="Family Promise Case Management"
               thumbnail={thumbFamilyPromise}
             >
-              Case Management Softaware for Homeless Services Non-Profit
+              Case Management Sofware for Homeless Services Non-Profit
             </ProjectGridItem>
           </Section>
           <Section>
