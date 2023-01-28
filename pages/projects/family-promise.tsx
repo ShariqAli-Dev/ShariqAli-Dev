@@ -7,7 +7,7 @@ import {
   AspectRatio,
 } from "@chakra-ui/react";
 import Layout from "../../components/layouts/Article";
-import { Meta, ProjectImage, Title } from "../../components/Project";
+import { Meta, Title } from "../../components/Project";
 import P from "../../components/Paragraph";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 

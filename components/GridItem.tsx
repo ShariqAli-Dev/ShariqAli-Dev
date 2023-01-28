@@ -3,6 +3,7 @@ import Image, { StaticImageData } from "next/image";
 import { Box, Text, LinkBox, LinkOverlay } from "@chakra-ui/react";
 import { Global } from "@emotion/react";
 import { ReactNode } from "react";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 type GridItem = {
   children?: ReactNode;
@@ -51,9 +52,11 @@ export const ProjectGridItem = ({
           className="grid-item-thumbnail"
           placeholder="blur"
         />
-        <LinkOverlay href={`/projects/${id}`}>
+        <LinkOverlay href={`/projects/${id}`}  >
           <Text mt={2} fontSize={20}>
-            {title}
+
+            {title} {"        "}
+            < ExternalLinkIcon target="_blank" />
           </Text>
         </LinkOverlay>
         <Text fontSize={14}>{children}</Text>
