@@ -29,8 +29,8 @@ const NotFound = () => {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://www.shariqapps.dev" target="blank">
-              https://www.shariqapps.dev <ExternalLinkIcon mx="2px" />
+            <Link href="https://bug-tracker.shariqapps.dev/" target="blank">
+              https://bug-tracker.shariqapps.dev <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -49,7 +49,6 @@ const NotFound = () => {
             <span>
               <Link
                 target="_blank"
-
                 href="https://github.com/ShariqAli-Dev/bug-tracker"
               >
                 Main <ExternalLinkIcon mx="2px" />
@@ -67,7 +66,14 @@ const NotFound = () => {
         />
 
         <AspectRatio>
-          <iframe width="1280" height="720" src="https://www.youtube.com/embed/2Svh41Qrmgw" title="Bug Tracker - Demo" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe
+            width="1280"
+            height="720"
+            src="https://www.youtube.com/embed/2Svh41Qrmgw"
+            title="Bug Tracker - Demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
         </AspectRatio>
       </Container>
     </Layout>
