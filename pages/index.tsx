@@ -100,17 +100,28 @@ const Home: NextPage = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>2021</BioYear>
-            - Interned at Loop Media!
+            <BioYear>2021</BioYear>- Intern at Loop Media
           </BioSection>
           <BioSection>
-            <BioYear>2022</BioYear>
-            - Completed the Full Stack Web Program from the Graduate School{" "}
-            <Link href="https://www.credly.com/badges/000873bb-2322-4557-86da-892870fbb18c" target="_blank">
+            <BioYear>2022</BioYear>- Completed the Full Stack Web Program from
+            the Graduate School{" "}
+            <Link
+              href="https://www.credly.com/badges/000873bb-2322-4557-86da-892870fbb18c"
+              target="_blank"
+            >
               Bloom Institute of Technology
             </Link>
-            <br />
-            - Interned at Family Promise Spokane!
+            <br />- Developer & TPM at Family Promise Spokane
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>- Software Engineer at{" "}
+            <Link href="https://blockchaincenter.com/" target="_blank">
+              Blockchain Center NYC
+            </Link>
+            <br />- Lead Developer at{" "}
+            <Link href="https://medici.ai/" target="_blank">
+              The Medici Project
+            </Link>
           </BioSection>
         </Section>
 
