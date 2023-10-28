@@ -6,6 +6,7 @@ import Section from "../components/Section";
 import thumbLoopMedia from "../public/images/projects/loop-media/eyecatch.jpg";
 import thumbFamilyPromise from "../public/images/projects/family-promise/eyecatch.png";
 import thumbBugTracker from "../public/images/projects/bug-tracker/eyecatch.png";
+import thumbMedici from "../public/images/projects/the-medici-project/eyecatch.png";
 
 const Projects = () => {
   return (
@@ -13,9 +14,18 @@ const Projects = () => {
       <Container>
         {/* Collaboorations */}
         <Heading as="h3" fontSize={20} mb={4}>
-          Collaborations
+          Experience
         </Heading>
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section>
+            <ProjectGridItem
+              id="the-medici-project"
+              title="The Medici Project"
+              thumbnail={thumbMedici}
+            >
+              Simple & Transparent Web3 Wealth Management
+            </ProjectGridItem>
+          </Section>
           <Section>
             <ProjectGridItem
               id="family-promise"
@@ -31,8 +41,8 @@ const Projects = () => {
               title="Loop Media"
               thumbnail={thumbLoopMedia}
             >
-              The place to write, read and discuss current events without
-              language barriers or filter bubbles
+              International News From Independent Writers Around The Globe, In
+              Any Language
             </ProjectGridItem>
           </Section>
         </SimpleGrid>
@@ -56,16 +66,6 @@ const Projects = () => {
               in software development projects
             </ProjectGridItem>
           </Section>
-          {/* <Section delay={0.2}>
-            <ProjectGridItem
-              id="closet-app"
-              title="Closet App"
-              thumbnail={thumbWOP}
-            >
-              Platform for a community of users to lend & buy clothes from
-              people in their local area
-            </ProjectGridItem>
-          </Section> */}
         </SimpleGrid>
       </Container>
     </Layout>

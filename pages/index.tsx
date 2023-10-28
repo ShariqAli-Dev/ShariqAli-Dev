@@ -100,7 +100,10 @@ const Home: NextPage = () => {
             Bio
           </Heading>
           <BioSection>
-            <BioYear>2021</BioYear>- Intern at Loop Media
+            <BioYear>2021</BioYear>- Intern at{" "}
+            <Link href="https://loopmedia.app" target="_blank">
+              Loop Media
+            </Link>
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>- Completed the Full Stack Web Program from
