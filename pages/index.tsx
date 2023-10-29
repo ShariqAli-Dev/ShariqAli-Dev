@@ -38,7 +38,7 @@ const Home: NextPage = () => {
           bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
           css={{ backdropFilter: "blur(10px)" }}
         >
-          Hello, I&apos;m a full-stack web developer based in New York!
+          Hello, I&apos;m a Software Engineer based in New York!
         </Box>
 
         <Box display={{ md: "flex" }}>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
             <Heading as="h2" variant="page-title">
               Shariq Ali
             </Heading>
-            <p>Software Engineer</p>
+            <p>Software Engineer (Web • Embedded • Blockchain)</p>
           </Box>
           <Box
             flexShrink={0}
@@ -80,11 +80,10 @@ const Home: NextPage = () => {
             Work
           </Heading>
           <Paragraph>
-            Shariq is a full-stack developer based in New York with a passion
-            for building digital things he wants. He has knack for all things
-            launching products, from planning and designing all the way to
-            solving real-life problems with code. When not online, he loves
-            pursuing his hobbies and spending quality time with his loved ones.
+            I&apos;m a software engineer based in New York with a passion for
+            building software and hardware. I have a knack for all things from
+            launching products, planning, designing, and solving real-life
+            problems with code.
           </Paragraph>
           <Box display="flex" justifyContent="center" my={4}>
             <NextLink href="/projects" passHref scroll={false}>
