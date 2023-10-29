@@ -1,34 +1,31 @@
-import {
-  Container,
-  Badge,
-  List,
-  ListItem,
-  Link,
-  AspectRatio,
-} from "@chakra-ui/react";
+import { Container, List, ListItem, Link, AspectRatio } from "@chakra-ui/react";
 import Layout from "../../components/layouts/Article";
 import { Meta, ProjectImage, Title } from "../../components/Project";
 import P from "../../components/Paragraph";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 
-const NotFound = () => {
+export default function LearningJourney() {
   return (
-    <Layout title="Bug Tracker">
+    <Layout>
       <Container>
-        <Title>Bug Tracker</Title>
+        <Title>Learning Journey</Title>
         <P>
-          Bug Tracker is a project management tool made for use as an internal
-          tool within an organization. You can create multiple projects with
-          their own individual tickets. With a tool such as this, a team of
-          developers can efficiently plan and resolve issues arisen during the
-          development lifecycle.
+          Learning Journey is an AI-powered course generation platform SaaS.
+          Using the site&apos;s UI, you can select a topic and specify as many
+          units as you&apos;d like. When you hit &apos;Generate&apos;, you are
+          provided with helpful modules, links, and even a mini-quiz to test
+          your understanding.
         </P>
 
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://bug-tracker.shariqapps.dev/" target="_blank">
-              https://bug-tracker.shariqapps.dev <ExternalLinkIcon mx="2px" />
+            <Link
+              href="https://learning-journey.shariqapps.dev/"
+              target="_blank"
+            >
+              https://learning-journey.shariqapps.dev
+              <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -38,8 +35,7 @@ const NotFound = () => {
           <ListItem>
             <Meta>Stack</Meta>
             <span>
-              React, Typescript, GraphQL, URQL/Apollo, Node.js, PostgreSQL,
-              MikroORM/TypeORM, Redis, Next.js, TypeGraphQL, Chakra
+              NextJS, OpenAI, Stripe, TailwindCSS, Prisma, Docker, PlanetScale
             </span>
           </ListItem>
           <ListItem>
@@ -47,7 +43,7 @@ const NotFound = () => {
             <span>
               <Link
                 target="_blank"
-                href="https://github.com/ShariqAli-Dev/bug-tracker"
+                href="https://github.com/ShariqAli-Dev/learning-journey"
               >
                 Main <ExternalLinkIcon mx="2px" />
               </Link>
@@ -55,28 +51,22 @@ const NotFound = () => {
           </ListItem>
         </List>
         <ProjectImage
-          src="/images/projects/bug-tracker/dashboard.png"
-          alt="Bug Tracker"
-        />
-        <ProjectImage
-          src="/images/projects/bug-tracker/project.png"
-          alt="Bug Tracker"
+          src="/images/projects/learning-journey/banner.png"
+          alt="Learning Journey"
         />
 
-        <AspectRatio>
+        {/* <AspectRatio>
           <iframe
             width="1280"
             height="720"
             src="https://www.youtube.com/embed/2Svh41Qrmgw"
-            title="Bug Tracker - Demo"
+            title="Learning Journey - Demo"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
-        </AspectRatio>
+        </AspectRatio> */}
       </Container>
     </Layout>
   );
-};
-
-export default NotFound;
+}
 export { getServerSideProps } from "../../components/Chakra";

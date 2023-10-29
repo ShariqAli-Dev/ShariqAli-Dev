@@ -7,6 +7,7 @@ import thumbLoopMedia from "../public/images/projects/loop-media/eyecatch.jpg";
 import thumbFamilyPromise from "../public/images/projects/family-promise/eyecatch.png";
 import thumbBugTracker from "../public/images/projects/bug-tracker/eyecatch.png";
 import thumbMedici from "../public/images/projects/the-medici-project/eyecatch.png";
+import thumbLearningJourney from "../public/images/projects/learning-journey/eyecatch.png";
 
 const Projects = () => {
   return (
@@ -56,6 +57,15 @@ const Projects = () => {
         </Section>
         {/* Projects */}
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
+          <Section delay={0.2}>
+            <ProjectGridItem
+              id="learning-journey"
+              title="Learning Journey"
+              thumbnail={thumbLearningJourney}
+            >
+              An AI-powered course generation platform SaaS
+            </ProjectGridItem>
+          </Section>
           <Section delay={0.2}>
             <ProjectGridItem
               id="bug-tracker"
