@@ -104,7 +104,7 @@ const Navbar = (props: NavProps) => {
             pl={2}
           >
             <IoNewspaperOutline />
-            Resume
+            Resume (outdated)
           </LinkItem>
         </Stack>
 
