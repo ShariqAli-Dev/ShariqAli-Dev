@@ -30,7 +30,7 @@ export default function TheMediciProject() {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://www.medici.ai" target="blank">
+            <Link href="https://www.medici.ai" target="_blank">
               https://www.medici.ai
               <ExternalLinkIcon mx="2px" />
             </Link>

@@ -8,6 +8,7 @@ import thumbFamilyPromise from "../public/images/projects/family-promise/eyecatc
 import thumbBugTracker from "../public/images/projects/bug-tracker/eyecatch.png";
 import thumbMedici from "../public/images/projects/the-medici-project/eyecatch.png";
 import thumbLearningJourney from "../public/images/projects/learning-journey/eyecatch.png";
+import thumbBlockchainCenter from "../public/images/projects/blockchain-center/eyecatch.png";
 
 const Projects = () => {
   return (
@@ -25,6 +26,15 @@ const Projects = () => {
               thumbnail={thumbMedici}
             >
               Simple & Transparent Web3 Wealth Management
+            </ProjectGridItem>
+          </Section>
+          <Section>
+            <ProjectGridItem
+              id="blockchain-center"
+              title="Blockchain Center NYC"
+              thumbnail={thumbBlockchainCenter}
+            >
+              Building the Decentralized Future
             </ProjectGridItem>
           </Section>
           <Section>

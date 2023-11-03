@@ -30,6 +30,7 @@
     "@types/three": "^0.143.0",
     "eslint": "8.20.0",
     "eslint-config-next": "12.2.3",
-    "typescript": "4.7.4"
+    "typescript": "4.7.4",
+    "vercel": "^32.5.0"
   }
 }

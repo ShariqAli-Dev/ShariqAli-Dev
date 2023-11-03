@@ -100,9 +100,9 @@ const Home: NextPage = () => {
           </Heading>
           <BioSection>
             <BioYear>2021</BioYear>- Intern at{" "}
-            <Link href="https://loopmedia.app" target="_blank">
-              Loop Media
-            </Link>
+            <NextLink href={"/projects/loop-media"} passHref scroll={false}>
+              <Link>Loop Media</Link>
+            </NextLink>
           </BioSection>
           <BioSection>
             <BioYear>2022</BioYear>- Completed the Full Stack Web Program from
@@ -113,17 +113,28 @@ const Home: NextPage = () => {
             >
               Bloom Institute of Technology
             </Link>
-            <br />- Developer & TPM at Family Promise Spokane
+            <br />- Developer & TPM at{" "}
+            <NextLink href={"/projects/family-promise"} passHref scroll={false}>
+              <Link>Family Promise Spokane</Link>
+            </NextLink>
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>- Software Engineer at{" "}
-            <Link href="https://blockchaincenter.com/" target="_blank">
-              Blockchain Center NYC
-            </Link>
+            <NextLink
+              href="/projects/blockchain-center"
+              passHref
+              scroll={false}
+            >
+              <Link>Blockchain Center NYC</Link>
+            </NextLink>
             <br />- Lead Developer at{" "}
-            <Link href="https://medici.ai/" target="_blank">
-              The Medici Project
-            </Link>
+            <NextLink
+              href="/projects/the-medici-project"
+              passHref
+              scroll={false}
+            >
+              <Link>The Medici Project</Link>
+            </NextLink>
           </BioSection>
         </Section>
 
