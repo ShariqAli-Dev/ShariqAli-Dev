@@ -134,7 +134,7 @@ const Navbar = (props: NavProps) => {
                   target="_blank"
                   href="https://drive.google.com/file/d/1ZCukkq219Kx_TXc3aWbcxDUFZxR7eV-C/view?usp=sharing"
                 >
-                  Resume
+                  Resume (outdated)
                 </MenuItem>
               </MenuList>
             </Menu>
