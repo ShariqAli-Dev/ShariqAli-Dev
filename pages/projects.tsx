@@ -62,11 +62,11 @@ const Projects = () => {
         <Section delay={0.1}>
           <Divider my={6} />
           <Heading as="h3" fontSize={20} mb={4}>
-            Projects
+            Projects (updating soon!)
           </Heading>
         </Section>
         {/* Projects */}
-        <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        {/* <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.2}>
             <ProjectGridItem
               id="learning-journey"
@@ -86,7 +86,7 @@ const Projects = () => {
               in software development projects
             </ProjectGridItem>
           </Section>
-        </SimpleGrid>
+        </SimpleGrid> */}
       </Container>
     </Layout>
   );
