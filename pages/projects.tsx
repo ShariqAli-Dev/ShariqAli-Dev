@@ -7,7 +7,7 @@ import thumbLoopMedia from "../public/images/projects/loop-media/eyecatch.jpg";
 import thumbFamilyPromise from "../public/images/projects/family-promise/eyecatch.png";
 import thumbBugTracker from "../public/images/projects/bug-tracker/eyecatch.png";
 import thumbMedici from "../public/images/projects/the-medici-project/eyecatch.png";
-import thumbLearningJourney from "../public/images/projects/learning-journey/eyecatch.png";
+import thumbDiscoveryTrail from "../public/images/projects/discovery-trail/eyecatch.png";
 import thumbBlockchainCenter from "../public/images/projects/blockchain-center/eyecatch.png";
 
 const Projects = () => {
@@ -69,11 +69,11 @@ const Projects = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.2}>
             <ProjectGridItem
-              id="learning-journey"
-              title="Learning Journey"
-              thumbnail={thumbLearningJourney}
+              id="discovery-trail"
+              title="Discovery Trail"
+              thumbnail={thumbDiscoveryTrail}
             >
-              An AI-powered course generation platform SaaS
+              A course generation platform for self study or friends
             </ProjectGridItem>
           </Section>
           <Section delay={0.2}>

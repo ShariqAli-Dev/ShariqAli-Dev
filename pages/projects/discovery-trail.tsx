@@ -8,23 +8,27 @@ export default function LearningJourney() {
   return (
     <Layout>
       <Container>
-        <Title>Learning Journey</Title>
+        <Title>Discovery Trail</Title>
         <P>
-          Learning Journey is an AI-powered course generation platform SaaS.
-          Using the site&apos;s UI, you can select a topic and specify as many
-          units as you&apos;d like. When you hit &apos;Generate&apos;, you are
-          provided with helpful modules, links, and even a mini-quiz to test
-          your understanding.
+          Discovery Trail is an ai powered course generation platform. You can
+          create multiple courses for yourself or choose to share them with
+          friends.
+        </P>
+        <P>
+          This project is less about the user facing application and more about
+          the underlying go web server in control of everything. This is a well
+          known paradigm that I wanted to improve upon with the use of HTMX,
+          opposed to modern frameworks/libraries like Vite, Angular, & React.
         </P>
 
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
             <Link
-              href="https://learning-journey.shariqapps.dev/"
+              href="https://discovery-trail.shariqapps.dev/"
               target="_blank"
             >
-              https://learning-journey.shariqapps.dev
+              https://discovery-trail.shariqapps.dev
               <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
@@ -34,16 +38,14 @@ export default function LearningJourney() {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>
-              NextJS, OpenAI, Stripe, TailwindCSS, Prisma, Docker, PlanetScale
-            </span>
+            <span>Golang, Sqlite, TailwindCSS, Templ, HTMX, Vite</span>
           </ListItem>
           <ListItem>
             <Meta>Repositories</Meta>
             <span>
               <Link
                 target="_blank"
-                href="https://github.com/ShariqAli-Dev/learning-journey"
+                href="https://github.com/ShariqAli-Dev/discovery-trail"
               >
                 Main <ExternalLinkIcon mx="2px" />
               </Link>
@@ -51,8 +53,12 @@ export default function LearningJourney() {
           </ListItem>
         </List>
         <ProjectImage
-          src="/images/projects/learning-journey/banner.png"
-          alt="Learning Journey"
+          src="/images/projects/discovery-trail/banner.png"
+          alt="Discovery Trail"
+        />
+        <ProjectImage
+          src="/images/projects/discovery-trail/dashboard.png"
+          alt="Discovery Trail"
         />
 
         {/* <AspectRatio>
