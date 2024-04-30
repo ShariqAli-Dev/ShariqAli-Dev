@@ -96,7 +96,7 @@ const Navbar = (props: NavProps) => {
 
           <LinkItem
             target="_blank"
-            href="https://drive.google.com/file/d/1vkFguPY7IxxeXIMimdeOE4xLyw8g5lKu/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_jwZbfLwRqLu0XWaINHzaUX5nRRBisCz/view?usp=sharing"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -132,7 +132,7 @@ const Navbar = (props: NavProps) => {
                 <MenuItem
                   as={Link}
                   target="_blank"
-                  href="https://drive.google.com/file/d/1vkFguPY7IxxeXIMimdeOE4xLyw8g5lKu/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1_jwZbfLwRqLu0XWaINHzaUX5nRRBisCz/view?usp=sharing"
                 >
                   Resume
                 </MenuItem>
