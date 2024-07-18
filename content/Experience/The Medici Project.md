@@ -13,3 +13,4 @@ shariq was here
 inspiration
 https://brianlovin.com/
 https://lisyarus.github.io/blog/projects
+https://zenorocha.com/about
