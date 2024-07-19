@@ -31,6 +31,7 @@ export function pageResources(
   return {
     css: [joinSegments(baseDir, "index.css"), ...staticResources.css],
     js: [
+      // vercel analytics here
       {
         src: joinSegments(baseDir, "prescript.js"),
         loadTime: "beforeDOMReady",
