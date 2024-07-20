@@ -8,4 +8,4 @@ description: Eliminate bugs in software development projects.
 ## Stack
 - React, Typescript, GraphQL, URQL/Apollo, Node.js, PostgreSQL, MikroORM/TypeORM, Redis, Next.js, TypeGraphQL, Chakra UI.
 
-<div style="position: relative; width: 100%; max-width: 90%; margin: auto; overflow: hidden; padding-top: 56.25%;"> <iframe class="external-embed" allow="fullscreen" frameborder="0" src="https://www.youtube.com/embed/2Svh41Qrmgw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe> </div>
+<div style="position: relative; width: 100%; max-width: 75%; margin: auto; overflow: hidden; padding-top: 56.25%;"> <iframe class="external-embed" allow="fullscreen" frameborder="0" src="https://www.youtube.com/embed/2Svh41Qrmgw" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"></iframe> </div>
