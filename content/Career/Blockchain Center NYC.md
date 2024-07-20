@@ -15,5 +15,5 @@ I was a Lead Developer at BCCNY, where I worked extensively with [[Bitcoin]] and
 ## Accomplishments
 - Reduced transaction costs over 80% by migrating all P2P transactions to bitcoin's [[Lightning Layer|lightning layer]].
 - Used [[Miniscript|miniscript]] to create E2E secured financial transactions for dozens of international purchasers.
-- Anonymized trading of [[Inscriptions|inscriptions]] while decentralizing the storage of [[PSBT|PSBTl]] leveraging [[Nostr Relay|Nostr Relays]].
+- Anonymized trading of [[Inscriptions|inscriptions]] while decentralizing the storage of [[PSBT|PSBTs]] leveraging [[Nostr Relay|Nostr Relays]].
 - Provided mentorship and coaching to rotating group of interns/students every 3 months.
