@@ -6,7 +6,7 @@ date: 2003-01-30
 ---
 > "Sucking at something is the first step to becoming sorta good at something." \- Jake the Dog, *Adventure Time*
 
-**Hey, I'm Shariq Ali**, a <a href="https://github.com/shariqali-dev" target="_blank">software engineer</a> with a passion for biology, engineering and everything in between. I'm the **Co-Founder & CTO** of [[The Medici Project]]. Before that, I was the lead developer at [[Blockchain Center NYC]] and a software engineer at [[Loop Media]] & [[Family Promise Spokane]]. I'm originally from Guyana, eventually moving and settling in **New York** at a young age.
+**Hey, I'm Shariq Ali**, a <a href="https://github.com/shariqali-dev" target="_blank">software engineer</a> with a passion for biology, engineering and everything in between. I'm the **Co-Founder & CTO** of [[The Medici Project]]. Before that, I was the lead developer at [[Blockchain Center NYC]] and a software engineer at [[Loop Media]] & [[Family Promise of Spokane]]. I'm originally from Guyana, eventually moving and settling in **New York** at a young age.
 
 **I love simulations**, open source, and [[Projects|side projects]]. When I'm not working, I like biking, reading, and **eating tacos**. 
 
@@ -27,7 +27,7 @@ This is made for journalists, podcast hosts, and event organizers to copy-and-pa
 <p style="margin: 0.5rem auto; line-height: 1.2;">Dec 2022 – Dec 2023 • 12 mos</p>
 
 ### Full Stack Developer & TPM
-<p style="margin: 0.5rem auto; line-height: 1.2;"><u><b><a href="./Career/Family Promise Spokane" class="internal-link">Family Promise Spokane</a></b></u> • Spokane, Washington</p>
+<p style="margin: 0.5rem auto; line-height: 1.2;"><u><b><a href="./Career/Family Promise of Spokane" class="internal-link">Family Promise Spokane</a></b></u> • Spokane, Washington</p>
 <p style="margin: 0.5rem auto; line-height: 1.2;">Jan 2022 – Jun 2022 • 6 mos</p>
 
 ### Software Engineer
