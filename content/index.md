@@ -6,11 +6,11 @@ date: 2003-01-30
 ---
 > "Sucking at something is the first step to becoming sorta good at something." \- Jake the Dog, *Adventure Time*
 
-**Hey, I'm Shariq Ali**, a <a href="https://github.com/shariqali-dev" target="_blank">software engineer</a> with a passion for biology, engineering and everything in between. I'm the **Co-Founder & CTO** of [[The Medici Project]]. Before that, I was the lead developer at [[BCCNY]] and a software engineer at [[Loop Media]] & [[Family Promise Spokane]]. I'm originally from Guyana, eventually moving and settling in **New York** at a young age.
+**Hey, I'm Shariq Ali**, a <a href="https://github.com/shariqali-dev" target="_blank">software engineer</a> with a passion for biology, engineering and everything in between. I'm the **Co-Founder & CTO** of [[The Medici Project]]. Before that, I was the lead developer at [[Blockchain Center NYC]] and a software engineer at [[Loop Media]] & [[Family Promise Spokane]]. I'm originally from Guyana, eventually moving and settling in **New York** at a young age.
 
 **I love simulations**, open source, and [[Projects|side projects]]. When I'm not working, I like biking, reading, and **eating tacos**. 
 
-> [!warning] This site is actively being worked on. Expect any unavailable notes to be published in a few days.
+> [!warning] This site is actively being worked on, some notes will be unavailable.
 ## Bio
 This is made for journalists, podcast hosts, and event organizers to copy-and-paste.
 
@@ -23,7 +23,7 @@ This is made for journalists, podcast hosts, and event organizers to copy-and-pa
 <p style="margin: 0.5rem auto; line-height: 1.2;">Jan 2023 – Present • 1 yr 8 mos</p>
 
 ### Lead Developer
-<p style="margin: 0.5rem auto; line-height: 1.2;"><u><b><a href="./Career/BCCNY" class="internal-link">BCCNY</a></b></u> • New York, New York</p>
+<p style="margin: 0.5rem auto; line-height: 1.2;"><u><b><a href="./Career/Blockchain-Center-NYC" class="internal-link">Blockchain Center NYC</a></b></u> • New York, New York</p>
 <p style="margin: 0.5rem auto; line-height: 1.2;">Dec 2022 – Dec 2023 • 12 mos</p>
 
 ### Full Stack Developer & TPM

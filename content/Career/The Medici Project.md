@@ -1,5 +1,4 @@
 ---
-title: The Medici Project
 draft: false
 date: 2023-01-20
 description: " Simple and transparent wealth management."

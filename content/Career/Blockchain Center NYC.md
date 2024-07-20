@@ -1,5 +1,5 @@
 ---
-title: BCCNY
+title: 
 draft: false
 date: 2022-12-14
 description: Learn about and grow the bitcoin sector.
