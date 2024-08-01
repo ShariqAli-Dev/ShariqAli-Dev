@@ -14,7 +14,7 @@ As the Co-Founder & CTO, I work closely with my <a target="_blank" href="https:/
 ## Accomplishments
 - Created a system covering point-in-time and period reporting for hybrid on-and-off chain fund structures.
 - Negated ~0.5% asset loss when bridging by leveraging Circle's <a href="https://www.circle.com/en/cross-chain-transfer-protocol" target="blank_">Cross-Chain Transfer Protocol</a>.
-- Top 10% of applicants in the YC Fall 2024 cohort. 
+- Top 4% of applicants in the YC Fall 2024 cohort. 
 -  Architected a fund structure ensuring security and redundancy when transferring assets with multiple signatories.
 - Launched the implementation of a decentralized token for accredited investors, allowing Medici's assets to be traded internationally.
 - Curated enriched user metrics, in-depth logging & error handling with PoshHog & Setry.
