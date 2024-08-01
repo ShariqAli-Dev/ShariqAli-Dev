@@ -246,6 +246,11 @@ export function renderPage(
           </Body>
           <Footer {...componentData} />
         </div>
+        {/* <script
+          defer
+          src="https://cloud.umami.is/script.js"
+          data-website-id="4c6d5e37-18a4-4c91-96d8-1b98e53cfb7c"
+        ></script> */}
       </body>
       {pageResources.js
         .filter((resource) => resource.loadTime === "afterDOMReady")

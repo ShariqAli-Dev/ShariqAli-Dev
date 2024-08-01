@@ -9,11 +9,12 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "🌌 Shariq Ali",
+    analytics: {
+      provider: "umami",
+      websiteId: "4c6d5e37-18a4-4c91-96d8-1b98e53cfb7c",
+    },
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
