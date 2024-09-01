@@ -14,6 +14,7 @@
   "scripts": {
     "sync": "npx quartz sync",
     "dev": "npx quartz build --serve",
+    "deploy": "npx vercel --prod",
     "build": "npx quartz build",
     "quartz": "./quartz/bootstrap-cli.mjs",
     "docs": "npx quartz build --serve -d docs",
