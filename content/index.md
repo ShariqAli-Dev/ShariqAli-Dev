@@ -2,7 +2,7 @@
 title: Create. Share. Repeat.
 draft: false
 description: I write stuff about math, simulation, graphics, gamedev, and programming.
-date: 2003-01-30
+date: 2003-01-29
 ---
 
 > "Sucking at something is the first step to becoming sorta good at something." \- Jake the Dog, _Adventure Time_
